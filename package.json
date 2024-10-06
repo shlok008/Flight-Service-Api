@@ -1,0 +1,22 @@
+{
+  "name": "flight-service",
+  "version": "1.0.0",
+  "description": "A basic flight service backend api.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shlok Aggarwal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.20.0",
+    "http-status-codes": "^2.3.0",
+    "mysql2": "^3.11.2",
+    "nodemon": "^3.1.4",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2"
+  }
+}
